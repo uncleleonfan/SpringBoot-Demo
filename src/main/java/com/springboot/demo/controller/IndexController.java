@@ -12,7 +12,6 @@ public class IndexController {
 
     @RequestMapping("/index")
     public String index() {
-        Logger.getAnonymousLogger().log(Level.INFO, "index");
         return "index";
     }
 }
