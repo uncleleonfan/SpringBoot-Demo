@@ -13,8 +13,8 @@ public class UserServiceImpl implements UserService {
         if (user == null) {
             throw new RuntimeException("检查用户参数是否为空");
         }
-        System.out.println("id=" + user.getId());
-        System.out.println("\tusername=" + user.getUserName());
-        System.out.println("\tnote=" + user.getNote());
+        System.out.print("id=" + user.getId());
+        System.out.print("\tusername=" + user.getUserName());
+        System.out.print("\tnote=" + user.getNote());
     }
 }
