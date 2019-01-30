@@ -1,7 +1,6 @@
 package com.springboot.demo.service;
 
-import com.springboot.demo.model.User;
-import org.springframework.stereotype.Service;
+import com.springboot.demo.pojo.User;
 
 //@Service 无效
 public interface UserService {

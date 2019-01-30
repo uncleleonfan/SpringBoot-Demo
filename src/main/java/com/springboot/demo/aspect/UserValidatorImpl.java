@@ -1,6 +1,6 @@
 package com.springboot.demo.aspect;
 
-import com.springboot.demo.model.User;
+import com.springboot.demo.pojo.User;
 
 public class UserValidatorImpl implements UserValidator {
     @Override

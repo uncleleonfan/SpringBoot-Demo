@@ -1,6 +1,6 @@
 package com.springboot.demo.service;
 
-import com.springboot.demo.model.User;
+import com.springboot.demo.pojo.User;
 import org.springframework.stereotype.Service;
 
 

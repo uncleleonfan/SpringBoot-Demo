@@ -1,10 +1,14 @@
-package com.springboot.demo.model;
+package com.springboot.demo.pojo;
 
+import org.apache.ibatis.type.Alias;
+
+@Alias(value = "user")
 public class User {
 
     private int id;
     private String userName;
     private String note;
+    private SexEnum sex;
 
     public int getId() {
         return id;
@@ -28,5 +32,13 @@ public class User {
 
     public void setNote(String note) {
         this.note = note;
+    }
+
+    public SexEnum getSex() {
+        return sex;
+    }
+
+    public void setSex(SexEnum sex) {
+        this.sex = sex;
     }
 }

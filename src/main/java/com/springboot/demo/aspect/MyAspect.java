@@ -1,8 +1,7 @@
 package com.springboot.demo.aspect;
 
 
-import com.springboot.demo.model.User;
-import org.aspectj.lang.JoinPoint;
+
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
 

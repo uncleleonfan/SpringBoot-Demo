@@ -1,7 +1,7 @@
 package com.springboot.demo.controller;
 
 import com.springboot.demo.aspect.UserValidator;
-import com.springboot.demo.model.User;
+import com.springboot.demo.pojo.User;
 import com.springboot.demo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
