@@ -2,8 +2,10 @@ package com.springboot.demo.pojo;
 
 import org.apache.ibatis.type.Alias;
 
+import java.io.Serializable;
+
 @Alias(value = "user")
-public class User {
+public class User implements Serializable {
 
     private int id;
     private String userName;
